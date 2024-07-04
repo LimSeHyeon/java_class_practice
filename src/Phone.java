@@ -1,5 +1,5 @@
 public abstract class Phone {
-    public String user;
+    private String user;
 
     public Phone(String user) {
         this.user = user;
@@ -8,4 +8,8 @@ public abstract class Phone {
     abstract void printLogo();
     abstract void buy();
     abstract void turnOn();
+
+    public String getUser() {
+        return user;
+    }
 }

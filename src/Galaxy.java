@@ -10,11 +10,11 @@ public class Galaxy extends Phone {
     }
 
     public void buy() {
-        System.out.println(user + "님이 삼송폰을 구매했습니다.");
+        System.out.println(getUser() + "님이 삼송폰을 구매했습니다.");
     }
 
     public void turnOn() {
-        System.out.println(user + "님이 삼송폰을 켰습니다.");
+        System.out.println(getUser() + "님이 삼송폰을 켰습니다.");
         printLogo();
     }
 }
